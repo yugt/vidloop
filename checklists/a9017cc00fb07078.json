@@ -1,0 +1,19 @@
+{
+ "brief": "A 9-second news intro: a red banner wipes in from the left with 'BREAKING' in bold white on it; then a ticker along the bottom scrolls 'Markets rally - Tech leads gains - Oil steady' continuously from right to left; meanwhile a clock in the top-right corner shows 10:42 with a blinking colon.",
+ "checks": [
+  "Does a red banner wipe in from the left edge of the frame (starting off\u2011screen left and ending fully inside)?",
+  "Does the banner contain the word **BREAKING** in bold white text (centered on the banner)?",
+  "Does the ticker at the bottom begin to scroll only after the banner\u2019s wipe\u2011in animation has finished?",
+  "Does the ticker continuously display the exact phrase \"Markets rally - Tech leads gains - Oil steady\" (repeating without alteration)?",
+  "Does the ticker scroll smoothly from right to left at a steady pace with no pauses, reversals, or jumps?",
+  "Is a clock visible in the top\u2011right corner for the entire duration of the intro?",
+  "Does the clock show the time **10:42** (hours:minutes) throughout the video?",
+  "Does the colon in the clock blink on and off at a regular interval (approximately 0.5\u202fs on, 0.5\u202fs off)?",
+  "During the banner wipe\u2011in, does no visual element touch or cross the outer frame edge (the banner starts off\u2011screen but ends fully inside)?",
+  "Does the banner\u2019s wipe\u2011in animation ease in and out (i.e., it starts slow, speeds up, then slows) rather than moving at a constant speed?",
+  "Is there at least one visible change (movement, color shift, or blink) in every second of the video, ensuring no dead air?",
+  "Does the final frame remain static for at least half a second before the video ends?",
+  "Are the colors harmonious \u2013 specifically, does the red banner provide strong contrast with the white \u2018BREAKING\u2019 text without any clashing hues elsewhere?",
+  "Are there any visible glitches, flicker, overlapping text, or rendering artifacts in the video?"
+ ]
+}

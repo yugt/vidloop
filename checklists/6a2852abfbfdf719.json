@@ -1,0 +1,19 @@
+{
+ "brief": "A 7-second lower-third: a name 'Dr. Ada Park' and title 'Chief Scientist' slide in from the left on a colored bar, hold, then slide out.",
+ "checks": [
+  "Is the colored bar visible behind both text lines for the entire duration?",
+  "Does the name text read exactly 'Dr. Ada Park'?",
+  "Does the title text read exactly 'Chief Scientist'?",
+  "Is the name positioned above the title (vertically higher in the frame)?",
+  "Are the left edges of the name and title aligned (same horizontal start point)?",
+  "Do the bar and text start completely off\u2011screen left and become fully on\u2011screen within the first second?",
+  "Does the sliding motion ease in and out (i.e., not move at a constant speed)?",
+  "Is there a stationary hold of at least 0.5\u202fseconds after the slide\u2011in before the slide\u2011out begins?",
+  "Do the bar and text slide completely off\u2011screen left before the video ends?",
+  "Do the bar and text never touch or cross the top or bottom frame edges?",
+  "Is the vertical spacing between the name and title even and visually balanced?",
+  "Is the text legible with high contrast against the colored bar?",
+  "Are there no visible glitches, flicker, overlapping text, or rendering artifacts?",
+  "Does something move or change in every second of the video (no dead air)?"
+ ]
+}

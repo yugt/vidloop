@@ -1,0 +1,12 @@
+{
+  "train": [
+    "A 6-second title card for a podcast called 'Signal & Noise': the title types on letter by letter over a dark gradient, then a thin waveform line animates underneath.",
+    "An 8-second explainer: three labelled boxes 'Plan', 'Act', 'Check' appear one at a time in a row, connected by arrows that draw themselves, then an arrow loops from 'Check' back to 'Plan'.",
+    "A 6-second animated bar chart: five bars labelled Mon to Fri grow from zero to heights 3, 7, 5, 9, 4 with value labels, and the tallest bar is highlighted at the end.",
+    "A 5-second countdown from 3 to 1 with each number scaling up and fading out, ending on the word 'GO!' with a burst of particles."
+  ],
+  "test": [
+    "A 7-second lower-third: a name 'Dr. Ada Park' and title 'Chief Scientist' slide in from the left on a colored bar, hold, then slide out.",
+    "A 6-second loading screen: a circular progress ring fills from 0% to 100% with the percentage counting up in the centre, then the ring pulses once."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second five-day weather forecast: columns for Mon to Fri appear left to right with a stagger; each has a simple icon drawn with shapes (sun, cloud, rain, sun, storm), the high temperature above and the low below (72/58, 68/55, 61/50, 75/60, 64/52).",
+ "checks": [
+  "The leftmost visible column when it first appears is for Monday and shows a sun icon (simple shape\u2011based sun) with the high temperature \"72\" above it and the low temperature \"58\" below it.",
+  "The second column from the left when it appears is for Tuesday and shows a cloud icon with high \"68\" above and low \"55\" below.",
+  "The third column when it appears is for Wednesday and shows a rain icon with high \"61\" above and low \"50\" below.",
+  "The fourth column when it appears is for Thursday and shows a sun icon with high \"75\" above and low \"60\" below.",
+  "The fifth column when it appears is for Friday and shows a storm icon with high \"64\" above and low \"52\" below.",
+  "Each column appears sequentially from left to right with a noticeable delay between the appearance of adjacent columns (no two columns appear at the exact same frame).",
+  "All animated properties (position, scale, opacity) of the columns use smooth ease\u2011in and ease\u2011out curves rather than linear motion.",
+  "There is at least one visible change (appearance, movement, or transformation) in every one\u2011second interval of the video, ensuring no dead air.",
+  "No visual element appears before the 0.5\u2011second mark; the first column begins to appear at or after 0.5\u202fs.",
+  "After the last column has fully appeared, the final composition remains static (no further animation) for at least 0.5\u202fseconds before the video ends.",
+  "All columns are horizontally aligned on a common baseline and evenly spaced with equal gutters between them; none of the icons or text touch or cross the outer frame edges.",
+  "The text (temperature numbers) is large enough to be easily readable (approximately at least one\u2011tenth of the frame height) and has high contrast against its background.",
+  "The color palette used for the icons and text is harmonious (no clashing hues) and there are no visible rendering glitches, flicker, overlapping text, or artifacts.",
+  "The video fills the entire frame with no black bars, borders, masks, or hard\u2011edged vignettes; the picture extends to the edges of the viewport."
+ ]
+}

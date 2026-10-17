@@ -1,0 +1,21 @@
+{
+ "brief": "A 9-second org chart: a 'CEO' box appears at the top; three boxes 'CTO', 'CFO' and 'COO' appear below it, connected by lines that draw downward from the CEO box; then two boxes 'Eng' and 'Data' appear under 'CTO' the same way; the final layout is centered and balanced.",
+ "checks": [
+  "The first visible element on screen is a box whose label reads exactly \u201cCEO\u201d and it is positioned near the top of the frame.",
+  "The CEO box appears with a smooth ease\u2011in\u2011out (e.g., fade/scale) rather than moving at a constant speed.",
+  "After the CEO box, three boxes appear below it whose labels read exactly \u201cCTO\u201d, \u201cCFO\u201d, and \u201cCOO\u201d (one label per box).",
+  "Each of the three boxes is vertically aligned under the CEO box and is connected to it by a line that draws downward from the bottom of the CEO box to the top of the respective box.",
+  "The lines that connect the CEO box to the CTO, CFO, and COO boxes draw with an ease\u2011in\u2011out motion, not at a constant speed.",
+  "The CTO, CFO, and COO boxes all appear before any box labeled \u201cEng\u201d or \u201cData\u201d becomes visible.",
+  "Two boxes appear under the CTO box whose labels read exactly \u201cEng\u201d and \u201cData\u201d (one label per box).",
+  "Each of the Eng and Data boxes is connected to the CTO box by a line that draws downward from the bottom of the CTO box to the top of the box, and the line draws with an ease\u2011in\u2011out motion.",
+  "The Eng and Data boxes appear with an ease\u2011in\u2011out animation (fade/scale), not at a constant speed.",
+  "When all boxes and lines are present, the overall composition is visually centered horizontally and vertically within the frame, with roughly equal spacing between sibling boxes (e.g., the three top\u2011level boxes are evenly spaced, and the two boxes under CTO are evenly spaced under the CTO box).",
+  "No box, line, or label touches or crosses the outer edge of the video frame; there is a clear margin around all elements.",
+  "Throughout the 9\u2011second span, at least one visual element (a box, a line, or a label) changes or moves in every one\u2011second interval, so there is no dead air.",
+  "The first visible change (appearance of the CEO box or its line) occurs no earlier than 0.5\u202fseconds after the start of the video (no empty opening).",
+  "The final frame, after the last animation completes, holds still for at least 0.5\u202fseconds before the video ends.",
+  "The colors used for the boxes, lines, and text are harmonious (e.g., same hue family or complementary) and the text label has high contrast against its box background.",
+  "The video contains no glitches, flicker, overlapping text, or visible rendering artifacts."
+ ]
+}

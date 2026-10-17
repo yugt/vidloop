@@ -1,0 +1,19 @@
+{
+ "brief": "A 6-second title card for a podcast called 'Signal & Noise': the title types on letter by letter over a dark gradient, then a thin waveform line animates underneath.",
+ "checks": [
+  "The on\u2011screen text reads exactly \"Signal & Noise\" (including the ampersand and spaces).",
+  "The background behind the title is a dark gradient (not a solid color or a light area).",
+  "The title appears by typing each letter sequentially, with no letters appearing all at once.",
+  "The typing animation finishes before any waveform line becomes visible.",
+  "A thin horizontal line (the waveform) appears beneath the title after the typing finishes.",
+  "The waveform line\u2019s height is noticeably smaller than the height of a capital letter in the title.",
+  "The waveform line animates (e.g., draws from left to right or pulses) after it appears.",
+  "The waveform animation completes and the line remains visible for at least the final half\u2011second of the card.",
+  "No part of the text or waveform touches or crosses the outer edge of the frame.",
+  "The title text is large enough to be easily readable (\u2248\u202f1/10 of the frame height) and has high contrast against the dark gradient.",
+  "Both the typing and waveform animations use ease\u2011in/ease\u2011out curves rather than moving at a constant speed.",
+  "There is some visual change in every second of the video (no dead\u2011air intervals).",
+  "The first half\u2011second contains visible animation (nothing is completely static before 0.5\u202fs).",
+  "The final composition holds still for at least 0.5\u202fseconds before the video ends."
+ ]
+}

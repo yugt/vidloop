@@ -1,0 +1,17 @@
+{
+ "brief": "An 8-second donut chart: four segments, 40% 'Rent', 25% 'Food', 20% 'Travel' and 15% 'Other', each in a distinct color, grow clockwise one after another; each segment gets its label and percentage placed outside the ring; the total '$2,400' counts up from $0 in the center.",
+ "checks": [
+  "The video shows a centered donut chart (a ring with a hole).",
+  "The chart is divided into exactly four visible segments.",
+  "The four segments correspond to the correct percentages and labels: the largest (~40%) is labeled \u201cRent\u202f40%\u201d, the next (~25%) \u201cFood\u202f25%\u201d, then (~20%) \u201cTravel\u202f20%\u201d, then (~15%) \u201cOther\u202f15%\u201d.",
+  "Each segment uses a distinctly different color (no two segments share the same hue).",
+  "The segments appear (grow) in clockwise order, one after another, with each segment finishing its growth before the next begins.",
+  "For each segment, its label and percentage are placed outside the ring, adjacent to that segment, and remain visible after the segment finishes growing.",
+  "The central numeric total starts at $0 and counts up smoothly to $2,400 by the end of the video.",
+  "All text (labels, percentages, central total) is at least about one\u2011tenth of the frame height high and has high contrast against its background.",
+  "No graphic or text touches or crosses the outer frame edge; there is a clear margin around the composition.",
+  "Animations (segment growth, label appearance, number count\u2011up) use ease\u2011in/ease\u2011out timing rather than moving at a constant speed.",
+  "There is meaningful motion or change in every second of the video (no dead air), and nothing appears before the first half\u2011second has elapsed.",
+  "The final composition holds still for at least half a second before the video ends, and the picture fills the whole frame with no black bars, borders, or hard\u2011edged vignettes."
+ ]
+}

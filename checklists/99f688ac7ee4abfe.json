@@ -1,0 +1,18 @@
+{
+ "brief": "A 6-second loading screen: a circular progress ring fills from 0% to 100% with the percentage counting up in the centre, then the ring pulses once.",
+ "checks": [
+  "Yes/No: A circular progress ring is present in the scene.",
+  "Yes/No: A percentage numeral is visible in the centre of the ring.",
+  "Yes/No: The ring\u2019s fill progresses from 0% (empty) to 100% (full) over the duration.",
+  "Yes/No: The percentage number counts up from 0 to 100 in sync with the ring\u2019s fill.",
+  "Yes/No: After reaching 100%, the ring executes a single pulse (scale\u2011up\u2011then\u2011down) and then stops.",
+  "Yes/No: The pulse occurs only after the fill is complete; there is no pulsing during the filling phase.",
+  "Yes/No: The percentage text is at least about one\u2011tenth of the frame height and has high contrast against its background.",
+  "Yes/No: No graphical element touches or crosses any edge of the frame.",
+  "Yes/No: The ring and the percentage text are concentrically aligned (the text is centered inside the ring) with even spacing.",
+  "Yes/No: The fill animation eases in and out (starts slow, speeds up, then slows down) rather than moving at a constant speed.",
+  "Yes/No: At least one visual change (ring progress or number update) occurs in every one\u2011second interval, so there is no dead air.",
+  "Yes/No: The animation begins immediately; no new element appears before the 0.5\u2011second mark (no empty opening).",
+  "Yes/No: After the final pulse, the image remains static for at least 0.5\u202fseconds before the video ends."
+ ]
+}

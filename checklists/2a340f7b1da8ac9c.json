@@ -1,0 +1,19 @@
+{
+ "brief": "A 9-second product launch title: a logo mark made of three overlapping circles (teal, coral, gold) flies in from three different directions with an overshoot and locks together; then the wordmark 'Lumen' rises letter by letter beneath it; then the tagline 'Light, measured.' fades in below; finally the whole lockup scales down by about 10% and holds.",
+ "checks": [
+  "The three logo circles are teal, coral, and gold respectively.",
+  "The circles overlap each other to form a single lockup with no gaps.",
+  "Each circle flies in from a different direction and clearly overshoots before settling.",
+  "After the overshoot the circles lock together and remain stationary as a group.",
+  "The wordmark 'Lumen' appears beneath the logo, letter\u2011by\u2011letter, with each letter rising into place.",
+  "The letters of 'Lumen' are evenly spaced and horizontally aligned under the logo.",
+  "The tagline 'Light, measured.' fades in below the wordmark after the wordmark is fully formed.",
+  "The tagline text is legible and has sufficient contrast against the background.",
+  "Once the tagline is visible, the entire lockup scales down by roughly 10% and then holds still.",
+  "The final hold lasts at least 0.5\u202fseconds before the video ends.",
+  "No element ever touches or crosses the outer frame edges.",
+  "All motions ease in and out (show acceleration/deceleration) rather than moving at a constant speed.",
+  "There is visible movement or change in every second of the 9\u2011second clip (no dead air).",
+  "The video contains no visual glitches, flicker, overlapping text, or rendering artifacts."
+ ]
+}

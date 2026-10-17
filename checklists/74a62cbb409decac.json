@@ -1,0 +1,19 @@
+{
+ "brief": "A 10-second cinematic short at sunrise in exactly three shots. Shot 1: a sleek, low, unbranded red two-seat electric roadster with small thruster ports, driven by a slim white-and-black humanoid robot with a glossy black faceplate (no logos, no people), drives northbound across the Golden Gate Bridge while ahead, beyond the north tower, a hillside on the Marin Headlands collapses into a landslide dust cloud. Shot 2: thrusters flare under the car and it hops up off the bridge deck and arcs around in mid-air above the suspension cables. Shot 3: the roadster lands on the southbound lanes and drives toward the San Francisco skyline, ending with the title 'Safe Return'.",
+ "checks": [
+  "Does the video contain exactly three separate shots (cuts) with no additional edits? (YES = good)",
+  "Is the overall lighting consistent with a sunrise scene (warm golden hue, low sun angle, soft shadows)? (YES = good)",
+  "In Shot\u202f1, is the vehicle a sleek, low\u2011profile, unbranded red two\u2011seat electric roadster showing small thruster ports? (YES = good)",
+  "In Shot\u202f1, is the driver a slim white\u2011and\u2011black humanoid robot with a glossy black faceplate, and are there no logos or human figures visible? (YES = good)",
+  "In Shot\u202f1, does the roadster travel northbound across the Golden Gate Bridge (from the San\u202fFrancisco side toward Marin)? (YES = good)",
+  "In Shot\u202f1, beyond the north tower, does a hillside on the Marin Headlands visibly collapse into a dust cloud while the car is in view? (YES = good)",
+  "In Shot\u202f2, do thrusters flare brightly under the car as it begins to leave the bridge? (YES = good)",
+  "In Shot\u202f2, does the car clearly hop up off the bridge deck and become airborne? (YES = good)",
+  "In Shot\u202f2, while airborne, does the car arc around staying above the suspension cables without contacting the deck or cables? (YES = good)",
+  "In Shot\u202f3, does the roadster land cleanly on the southbound lanes of the bridge? (YES = good)",
+  "In Shot\u202f3, after landing, does the car drive toward the San\u202fFrancisco skyline (i.e., heading south)? (YES = good)",
+  "Does the video end with the legible title \u201cSafe Return\u201d appearing after the car\u2019s motion and remaining on screen? (YES = good)",
+  "Do all animated motions (car movement, thruster flare, landslide dust, title appearance) ease in and out rather than moving at a constant speed? (YES = good)",
+  "Is there a meaningful visual change in every second of the video (no dead air) and does the opening avoid any empty frames before the first half\u2011second? (YES = good)"
+ ]
+}

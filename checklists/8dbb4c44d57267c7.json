@@ -1,0 +1,19 @@
+{
+ "brief": "A 9-second company timeline: a horizontal line draws from left to right; as it passes four milestones (2019 'Founded', 2021 'Series A', 2023 '1M users', 2025 'IPO') each pops a dot with its year and label, labels alternating above and below the line; at the end the last milestone glows.",
+ "checks": [
+  "Does the horizontal line start at the left edge of the frame and move continuously to the right edge without reversing or pausing? (YES = good)",
+  "As the line passes each milestone position, does a dot appear exactly at that point and remain visible thereafter? (YES = good)",
+  "Does each milestone display its correct year and label text (e.g., \u201c2019 Founded\u201d, \u201c2021 Series A\u201d, \u201c2023 1M users\u201d, \u201c2025 IPO\u201d) with no spelling errors? (YES = good)",
+  "Do the milestone labels alternate position relative to the line (first above, second below, third above, fourth below, or the reverse pattern)? (YES = good)",
+  "Do the milestones appear in the correct chronological order: 2019 \u2192 2021 \u2192 2023 \u2192 2025? (YES = good)",
+  "Does the line\u2019s drawing motion ease in at the start and ease out at the end (speed varies, not constant)? (YES = good)",
+  "Do each dot and its accompanying label pop into view with a quick scale\u2011up/ease\u2011out animation rather than appearing instantly? (YES = good)",
+  "Does the final milestone (2025 IPO) exhibit a noticeable glow or bloom effect that persists for at least the last 0.5\u202fsecond of the video? (YES = good)",
+  "Do all visual elements (line, dots, labels) stay at least a small inset from the outer frame boundary, with none touching or crossing the edge? (YES = good)",
+  "Is the spacing between successive milestones along the line visually even (approximately equal gaps)? (YES = good)",
+  "Is there perceptible motion or change in every one\u2011second interval of the video (no dead\u2011air seconds where the image is static)? (YES = good)",
+  "Does the opening half\u2011second contain only the beginning of the line draw, with no milestone, dot, label, or glow appearing before 0.5\u202fs? (YES = good)",
+  "Does the final frame hold still for at least 0.5\u202fsecond before the video ends (the last milestone\u2019s glow remains unchanged)? (YES = good)",
+  "Are the colours harmonious (good contrast, complementary hues) and free of glitches, flicker, overlapping text, or rendering artifacts? (YES = good)"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second line chart: an x-axis labelled Jan to Jun and a y-axis from 0 to 100 with gridlines every 25; a line draws left to right through the values 20, 35, 30, 60, 75, 90; each point gets a dot and its value label at the moment the line reaches it; at the end a dashed horizontal target line at 80 appears with the label 'Target'.",
+ "checks": [
+  "Is the x\u2011axis present and labelled Jan, Feb, Mar, Apr, May, Jun in that order from left to right?",
+  "Is the y\u2011axis present with tick marks (or gridlines) at 0, 25, 50, 75, 100 and does it extend vertically across the chart area?",
+  "Are thin gridlines visible at each 25\u2011unit interval (0,\u202f25,\u202f50,\u202f75,\u202f100) spanning the chart width?",
+  "Does the line draw from left to right with a smooth ease\u2011in/ease\u2011out motion (no constant\u2011speed segments)?",
+  "As the line reaches each data point, does a dot appear exactly at that point and remain visible thereafter?",
+  "When each dot appears, does its corresponding value label (20,\u202f35,\u202f30,\u202f60,\u202f75,\u202f90) appear near the dot and stay on screen?",
+  "Do the dots/labels appear in the correct sequence: Jan\u219220, Feb\u219235, Mar\u219230, Apr\u219260, May\u219275, Jun\u219290?",
+  "Do all visual elements (axes, labels, dots, line, gridlines, target line) stay inside the frame with a clear margin, never touching or crossing the edge?",
+  "After the Jun point, does a dashed horizontal line appear at the 80\u2011unit level spanning the chart width, accompanied by the label \u201cTarget\u201d?",
+  "Does the dashed target line and its label remain on screen for at least the final 0.5\u202fsecond before the video ends?",
+  "In every one\u2011second interval of the 8\u2011second video, does at least one element move, change opacity, or appear (i.e., no dead air)?",
+  "Does the colour scheme appear harmonious (neutral axes/grid, saturated line, contrasting dots, distinct target line) with no clashing hues?",
+  "Are there any visible glitches, flicker, overlapping text, or rendering artifacts in the video?",
+  "Does the picture fill the entire frame with no black bars, borders, masks, or hard\u2011edged vignettes?"
+ ]
+}

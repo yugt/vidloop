@@ -1,0 +1,19 @@
+{
+ "brief": "A 10-second short with a clear story. 1) A humanoid robot drives a stark-white angular roadster fast northbound across the Golden Gate Bridge; ahead, beyond the north end, the Marin hillside collapses in a landslide and dust pours onto the road. 2) In one continuous shot from a fixed camera, without slowing down, the roadster fires its cold-gas thrusters (white vapor, no flame), leaps off the deck, spins around in mid-air and lands on the southbound lanes facing the other way. 3) It drives back toward the San Francisco skyline, escaping the landslide, ending with the title 'Safe Return'.",
+ "checks": [
+  "The video shows a humanoid robot seated in the driver\u2019s seat of a stark\u2011white angular roadster.",
+  "The roadster is moving northbound across the Golden Gate Bridge (left\u2011to\u2011right direction in the frame).",
+  "The Golden Gate Bridge\u2019s towers and cables are clearly visible in the background during the first segment.",
+  "Beyond the north end of the bridge the Marin hillside visibly collapses and a dust cloud pours onto the road surface.",
+  "The camera remains fixed (no panning, tilting or zooming) for the entire sequence.",
+  "The roadster does not show any visible deceleration before the thrusters fire; its speed appears constant or increasing up to the jump.",
+  "When the thrusters fire only white vapor is emitted \u2013 no orange/yellow flame or smoke is visible.",
+  "The roadster leaves the bridge deck, becomes airborne and completes at least one full 360\u00b0 spin before touching the pavement again.",
+  "Upon landing the vehicle is on the southbound lanes and is oriented opposite to its original northbound heading (facing back toward San Francisco).",
+  "After landing the roadster drives southbound toward the San Francisco skyline, moving away from the landslide area.",
+  "The landslide/dust effect remains visible in the background as the roadster drives away, showing it is escaping the hazard.",
+  "The text \u201cSafe Return\u201d appears, is legible and centered, and stays on screen until the video ends.",
+  "No visual glitches, flicker, overlapping text or rendering artifacts are present anywhere in the video.",
+  "The picture fills the entire frame with no black bars, borders, masks or hard\u2011edged vignettes."
+ ]
+}

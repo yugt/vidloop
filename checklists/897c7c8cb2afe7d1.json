@@ -1,0 +1,19 @@
+{
+ "brief": "A 10-second cinematic film of the Golden Gate Bridge at sunrise: open on fog rolling across the bay with the bridge small in the distance, then a shot gliding beneath the bridge deck, and end looking out to the open ocean with the title 'Golden Hour'.",
+ "checks": [
+  "Does the opening shot show visible fog moving across the bay?",
+  "Is the fog\u2019s motion smooth and continuous (no jerky or constant\u2011speed movement)?",
+  "Is the Golden Gate Bridge visible but small in the frame during the opening shot (occupying less than about one\u2011fifth of the frame height)?",
+  "Does the transition from the fog shot to the beneath\u2011deck shot occur without a hard cut or abrupt jump (the camera movement continues fluidly)?",
+  "In the beneath\u2011deck shot, does the camera glide smoothly under the bridge deck with the deck visible above and water below (no static frame)?",
+  "Does the motion beneath the deck ease in at its start and ease out before the next transition (no constant\u2011speed linear movement)?",
+  "Does the final shot reveal a clear view of the open\u2011ocean horizon, with the bridge no longer dominating the frame?",
+  "Does the text \u2018Golden Hour\u2019 appear in the final shot, centered horizontally and vertically within the title\u2011safe area, legible and at least about one\u2011tenth of the frame height in size?",
+  "Does the text fade in with an ease\u2011in, hold steady for at least half a second, and then fade out (or remain) without an abrupt appearance/disappearance?",
+  "Is there no period longer than half a second where the picture is static with no meaningful change (i.e., something moves or changes each second)?",
+  "Does the video begin with visual content immediately (no black screen or empty frames) for the first half\u2011second?",
+  "Does the final frame hold still for at least half a second before the video ends (the last half\u2011second is a frozen frame of ocean\u202f+\u202ftitle)?",
+  "Are there no observable glitches, flicker, overlapping text, or rendering artifacts throughout the video?",
+  "Does the picture fill the entire frame with no black bars, borders, masks, or hard\u2011edged vignettes?"
+ ]
+}

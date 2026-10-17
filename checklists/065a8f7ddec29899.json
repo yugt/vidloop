@@ -1,0 +1,19 @@
+{
+ "brief": "A 7-second social stat card: a heart icon pops in with a bounce; a like counter counts from 0 to 12,500 with a thousands separator; then three small overlapping avatar circles slide in next to it followed by the text '+2.3k comments'.",
+ "checks": [
+  "Does the heart icon scale up past its final size and then settle, indicating a bounce animation? (YES = good)",
+  "Is the heart icon first visible only after at least 0.5\u202fseconds from the start of the video? (YES = good)",
+  "Does the like counter display numbers with a thousands separator (e.g., \"12,500\") when it reaches the final value? (YES = good)",
+  "Does the like counter\u2019s animation ease in and out (speed slower at the start and end) rather than move at a constant speed? (YES = good)",
+  "Do the three avatar circles begin their slide\u2011in motion only after the like counter has reached 12,500? (YES = good)",
+  "During their slide\u2011in, do the avatar circles remain overlapping each other by at least a noticeable amount (e.g., \u226520\u202f% of their diameter)? (YES = good)",
+  "Do the avatar circles\u2019 slide\u2011in motions ease in and out (speed slower at the start and end of the slide) rather than move linearly? (YES = good)",
+  "Does the text '+2.3k comments' appear only after the avatar circles have finished sliding and come to rest? (YES = good)",
+  "Is the text '+2.3k comments' at least about one\u2011tenth of the frame height and displayed with high contrast against its background? (YES = good)",
+  "Do any visible parts of the heart icon, counter, avatar circles, or text ever touch or cross the outer edge of the frame during the animation? (YES = good means NO contact)",
+  "Are the horizontal centers of the heart icon, like counter, avatar group, and text roughly evenly spaced, creating a clear aligned layout? (YES = good)",
+  "Is there visible motion or change in every one\u2011second interval of the video (no dead\u2011air seconds)? (YES = good)",
+  "Does the final composition remain static for at least half a second before the video ends? (YES = good)",
+  "Are there any noticeable glitches, flicker, overlapping text, or rendering artifacts throughout the video? (YES = good means none present)"
+ ]
+}

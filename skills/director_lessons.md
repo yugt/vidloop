@@ -1,0 +1,13 @@
+- Each storyboard shot must correspond to a distinct story beat with visible action; avoid generic scenery-only shots.
+- Include a consistent description of key cast/objects (appearance, defining features) in every still prompt to maintain visual continuity across shots.
+- When describing special effects (e.g., thrusters, explosions), use precise, physically accurate terms and avoid ambiguous words that trigger undesired renderings (e.g., avoid 'jets', 'flames', 'glow'; specify soft, misty, pale cyan‑blue plumes that widen into wisps with no bright core).
+- Motion prompts should convey continuous, uninterrupted action; avoid implying stops, hovers, or cuts unless intended, and explicitly state a static camera and no cuts for continuous takes.
+- For rotational maneuvers, specify the axis (yaw, pitch, roll) and the desired start and end orientations (e.g., 'starts facing right, ends facing left') to prevent ambiguous spins.
+- Never turn a screen direction (left-to-right) into a requirement unless the brief states one; describe travel by landmarks instead (e.g. 'away from the city toward the north tower').
+- When writing checks or validation criteria, only test requirements explicitly stated in the brief; do not add extra constraints not present in the original description.
+- Include any environmental elements that are crucial to story logic (e.g., barriers, lane markings, lighting conditions) in every relevant shot to preserve narrative coherence.
+- Put the camera where every story-critical element is visible: a side-on road-level camera hides a center median; an elevated view along or across the road keeps it in frame.
+- Describe a vehicle's body style and roof explicitly in the cast (e.g. 'closed fixed roof, not a convertible'); a model name such as 'roadster' makes the image model draw an open-top car.
+- Spell out counts and exclusions for road layouts ('exactly one median barrier, three open lanes each side, no other barriers') and place the subject relative to them; a bare 'median barrier' produced two barriers around the car's lane.
+- Generated roads invent markings (arrows, words) that can contradict the traffic direction; state the markings explicitly ('only dashed lane lines') and exclude everything else, with a must-pass check so the still gate looks for it.
+- For a turn-around, fix the start heading in the still relative to the story's landmarks (rear toward camera, heading toward the danger) and check both start and end headings; otherwise a perfect 180-degree turn can end pointing the wrong way.

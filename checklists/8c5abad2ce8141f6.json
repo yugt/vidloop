@@ -1,0 +1,18 @@
+{
+ "brief": "A 10-second short, one story beat per shot. Setting: the Golden Gate Bridge at sunrise; its six lanes are divided down the middle by a continuous low concrete median barrier (linked concrete blocks about 80 cm high) that ordinary cars cannot cross, so no car can U-turn. 1) A slim white-and-black humanoid robot with a glossy black faceplate drives a stark-white, angular, low two-seat electric roadster fast northbound on the bridge; ahead, beyond the north end, the Marin hillside collapses in a landslide and dust pours onto the road. Optional: ordinary cars ahead brake and are trapped because they cannot turn across the barrier. 2) In one continuous take from a fixed side camera, without slowing down, the roadster fires its compressed-air cold-gas thrusters (soft, misty, pale cyan-blue plumes and dense white vapor clouds, never flame), lifts off, flies over the median barrier while turning flat around to face south, and lands on the southbound lanes. 3) It drives back toward the San Francisco skyline, escaping the landslide, ending with the title 'Safe Return'.",
+ "checks": [
+  "Is the Golden Gate Bridge depicted with sunrise lighting (warm, low\u2011angle light)?",
+  "Is there a continuous low concrete median barrier running down the center of the bridge, dividing the lanes?",
+  "Is any vehicle observed crossing the median barrier from one side to the other (i.e., making a U\u2011turn)?",
+  "Is a slim humanoid robot with white\u2011and\u2011black coloring and a glossy black faceplate visible driving the vehicle?",
+  "Is the vehicle a stark\u2011white, angular, low two\u2011seat electric roadster?",
+  "Does the roadster move toward the Marin hillside side of the bridge (the direction where the landslide occurs)?",
+  "Beyond the north end of the bridge, is a landslide of the Marin hillside visible with dust pouring onto the roadway?",
+  "During the lift\u2011off sequence, is the camera fixed on a side angle with no cuts or camera movement?",
+  "Does the roadster maintain its speed (not visibly slow down) before firing its thrusters?",
+  "Are the thruster emissions soft, misty, pale cyan\u2011blue plumes accompanied by dense white vapor clouds, with no visible flame?",
+  "Does the roadster lift off, fly over the median barrier, rotate flat to face south while airborne, and then land on the southbound lanes?",
+  "After landing, does the roadster travel toward the San\u202fFrancisco skyline (away from the landslide) and end with the title 'Safe Return'?",
+  "Does the final title 'Safe Return' remain stationary on screen for at least half a second before the video ends?"
+ ]
+}

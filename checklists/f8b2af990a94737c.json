@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second recipe checklist: four numbered steps ('Boil water', 'Add pasta', 'Stir 8 min', 'Drain and serve') appear one at a time, each with a checkbox that ticks itself just after the step appears; a progress bar across the top advances by a quarter with each tick and ends full.",
+ "checks": [
+  "The video shows exactly four numbered steps in this order: 1\ufe0f\u20e3 Boil water, 2\ufe0f\u20e3 Add pasta, 3\ufe0f\u20e3 Stir 8\u202fmin, 4\ufe0f\u20e3 Drain and serve.",
+  "Each step\u2019s text is large (\u2248\u202f1/10 of the frame height or larger) and has high contrast against its background.",
+  "No text or checkbox touches or crosses any edge of the frame; there is a clear margin around all on\u2011screen elements.",
+  "Every step appears with its own checkbox positioned consistently (e.g., left of the text) and the checkbox is visible when the step text first appears.",
+  "Within the first 0.5\u202fseconds of the video at least one visual element (step text, checkbox, or progress bar) is already visible \u2013 there is no empty opening.",
+  "The progress bar starts empty and advances by exactly one\u2011quarter of its length each time a checkbox ticks, reaching full after the fourth tick.",
+  "Each quarter\u2011advance of the progress bar eases in and out (slow start and slow end) rather than moving at a constant speed.",
+  "After the final checkbox ticks and the progress bar is full, the final composition remains static for at least\u202f0.5\u202fseconds before the video ends.",
+  "Throughout the video there are no glitches, flicker, overlapping text, or visible rendering artifacts.",
+  "The colors used for text, checkboxes, and the progress bar form a harmonious palette with no clashing or overly saturated hues.",
+  "The picture fills the entire frame; there are no black bars, borders, masks, or hard\u2011edged vignettes.",
+  "All on\u2011screen elements are aligned to a clear layout (e.g., left\u2011aligned text with checkboxes, progress bar centered at the top) and are evenly spaced vertically.",
+  "In every one\u2011second interval of the video there is a visible change (appearance of a step, a checkbox tick, or progress\u2011bar movement) \u2013 no dead air.",
+  "All animations (step appearance, checkbox tick, progress\u2011bar movement) ease in and out instead of moving at a constant speed."
+ ]
+}

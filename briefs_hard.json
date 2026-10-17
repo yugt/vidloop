@@ -1,0 +1,16 @@
+{
+  "train": [
+    "A 9-second product launch title: a logo mark made of three overlapping circles (teal, coral, gold) flies in from three different directions with an overshoot and locks together; then the wordmark 'Lumen' rises letter by letter beneath it; then the tagline 'Light, measured.' fades in below; finally the whole lockup scales down by about 10% and holds.",
+    "An 8-second line chart: an x-axis labelled Jan to Jun and a y-axis from 0 to 100 with gridlines every 25; a line draws left to right through the values 20, 35, 30, 60, 75, 90; each point gets a dot and its value label at the moment the line reaches it; at the end a dashed horizontal target line at 80 appears with the label 'Target'.",
+    "A 9-second news intro: a red banner wipes in from the left with 'BREAKING' in bold white on it; then a ticker along the bottom scrolls 'Markets rally - Tech leads gains - Oil steady' continuously from right to left; meanwhile a clock in the top-right corner shows 10:42 with a blinking colon.",
+    "An 8-second recipe checklist: four numbered steps ('Boil water', 'Add pasta', 'Stir 8 min', 'Drain and serve') appear one at a time, each with a checkbox that ticks itself just after the step appears; a progress bar across the top advances by a quarter with each tick and ends full."
+  ],
+  "test": [
+    "An 8-second donut chart: four segments, 40% 'Rent', 25% 'Food', 20% 'Travel' and 15% 'Other', each in a distinct color, grow clockwise one after another; each segment gets its label and percentage placed outside the ring; the total '$2,400' counts up from $0 in the center.",
+    "A 9-second org chart: a 'CEO' box appears at the top; three boxes 'CTO', 'CFO' and 'COO' appear below it, connected by lines that draw downward from the CEO box; then two boxes 'Eng' and 'Data' appear under 'CTO' the same way; the final layout is centered and balanced.",
+    "An 8-second five-day weather forecast: columns for Mon to Fri appear left to right with a stagger; each has a simple icon drawn with shapes (sun, cloud, rain, sun, storm), the high temperature above and the low below (72/58, 68/55, 61/50, 75/60, 64/52).",
+    "A 7-second social stat card: a heart icon pops in with a bounce; a like counter counts from 0 to 12,500 with a thousands separator; then three small overlapping avatar circles slide in next to it followed by the text '+2.3k comments'.",
+    "A 9-second company timeline: a horizontal line draws from left to right; as it passes four milestones (2019 'Founded', 2021 'Series A', 2023 '1M users', 2025 'IPO') each pops a dot with its year and label, labels alternating above and below the line; at the end the last milestone glows.",
+    "An 8-second before/after split screen: a vertical divider draws down the middle; the left half is titled 'Before' and shows a messy scatter of 12 gray dots; the right half is titled 'After' and shows the same 12 dots animating from a scatter into a neat 3 by 4 grid in blue."
+  ]
+}

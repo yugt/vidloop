@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second before/after split screen: a vertical divider draws down the middle; the left half is titled 'Before' and shows a messy scatter of 12 gray dots; the right half is titled 'After' and shows the same 12 dots animating from a scatter into a neat 3 by 4 grid in blue.",
+ "checks": [
+  "Does a vertical line appear at the top\u2011center of the frame and extend downward to the bottom\u2011center, finishing its draw before the video ends?",
+  "Is the left half of the frame labeled with the text \u201cBefore\u201d in a legible, high\u2011contrast style?",
+  "Is the right half of the frame labeled with the text \u201cAfter\u201d in a legible, high\u2011contrast style?",
+  "In the left half, are there exactly 12 dots, all colored gray, arranged in a scattered, non\u2011grid pattern?",
+  "At the start of the right\u2011half animation, are there exactly 12 dots that match the initial positions of the left\u2011half scatter?",
+  "Do the 12 dots in the right half animate from their scattered start positions to form a precise 3\u2011by\u20114 grid (3 columns, 4 rows) by the end of the video?",
+  "Are the dots in the right half colored blue (or a shade of blue) throughout their animation while the left\u2011half dots remain gray?",
+  "Does the vertical divider complete its full height before the dot animation begins, establishing a clear before/after separation?",
+  "At no point do any dot, text, or the divider touch or cross the outer frame edges?",
+  "Are the divider, titles, and dot clusters aligned to a clear vertical layout with even spacing between the left and right halves and consistent margins?",
+  "Do all movements (the divider drawing and the dot transitions) use easing (slow\u2011in/slow\u2011out) rather than moving at a constant speed?",
+  "Is there at least some visual change occurring in every one\u2011second interval of the video (no dead\u2011air seconds), and does nothing appear before the first 0.5\u202fsecond?",
+  "Does the final frame hold still (no further animation) for at least 0.5\u202fsecond before the video ends?",
+  "Are the gray and blue colors harmonious, and are there no visible glitches, flicker, overlapping text, or rendering artifacts?"
+ ]
+}

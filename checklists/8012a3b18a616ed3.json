@@ -1,0 +1,19 @@
+{
+ "brief": "A 10-second short with a clear story in four beats. 1) A humanoid robot drives a stark-white angular roadster northbound across the Golden Gate Bridge; ahead, beyond the north end, the Marin hillside collapses in a landslide and dust pours onto the road. 2) The roadster's compressed-air thrusters fire (cold gas, no flame) and it lifts off the bridge deck. 3) In mid-air above the bridge it turns around to face south. 4) It lands on the southbound lanes and drives back toward the San Francisco skyline, escaping the landslide, ending with the title 'Safe Return'.",
+ "checks": [
+  "Is the humanoid robot clearly visible and recognizably human\u2011shaped (head, torso, arms, legs) when it first appears driving the roadster?",
+  "Is the roadster stark\u2011white and angular (sharp edges, no curves) throughout the scene?",
+  "Does the robot drive the roadster from left to right across the frame (northbound direction) during the first beat?",
+  "Does the Marin hillside beyond the north end of the bridge visibly collapse and produce a dust cloud that pours onto the road before the robot lifts off?",
+  "Are the thrusters visible emitting a clear, cold\u2011gas plume (no orange/yellow flame) when the roadster lifts off?",
+  "Does the roadster visibly lift off the bridge deck (wheels leave the surface) immediately after the thruster plume appears?",
+  "While airborne, does the roadster execute a smooth 180\u2011degree turn to face south (reverse direction) before descending?",
+  "Does the roadster land on the southbound lanes (right\u2011to\u2011left motion) and continue driving toward the San\u202fFrancisco skyline without bouncing or sliding?",
+  "Is the title 'Safe Return' displayed legibly at the end, centered, with sufficient contrast against the background, and remains on screen for at least half a second before the video ends?",
+  "Are the four story beats presented in the correct chronological order (drive north \u2192 landslide/dust \u2192 thruster lift\u2011off \u2192 turn \u2192 landing & return) with no beat missing or out of sequence?",
+  "Do all movements (driving, lifting, turning, landing) use ease\u2011in/ease\u2011out motion (start slow, accelerate, then decelerate) rather than constant speed?",
+  "Is there no dead air: does something meaningful (motion, change, or visual event) occur in every second of the video, and does the first half\u2011second contain visible action (no empty opening)?",
+  "Are colors harmonious and limited to a cohesive palette (white roadster, metallic robot, blue\u2011gray bridge, dusty beige, sky) with no clashing neon colors?",
+  "Is the video free of visual glitches, flicker, overlapping text, rendering artifacts, and does it fill the entire frame without black bars, borders, or hard\u2011edged vignettes?"
+ ]
+}

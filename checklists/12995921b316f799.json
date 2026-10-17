@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second cinematic shot flying low over the water and beneath the Golden Gate Bridge at sunrise: start wide with the bridge ahead in light fog, push in steadily as the bridge deck rises overhead, pass underneath, and end looking out to the open ocean, with the title 'Golden Hour' fading in at the end.",
+ "checks": [
+  "Is the Golden Gate Bridge clearly visible ahead, surrounded by light fog that softens its edges, at the very start of the video (first\u202f0.5\u202fs)?",
+  "Does the camera stay low just above the water surface for the whole shot, never rising above the bridge deck until the push\u2011in begins?",
+  "Does the camera push forward with a smooth ease\u2011in/ease\u2011out motion (no constant\u2011speed segments) as the bridge deck rises to occupy the upper third of the frame?",
+  "Does the underside of the bridge deck pass completely overhead, crossing the centre of the frame, before the camera continues forward?",
+  "After passing underneath, does the view transition to an open\u2011ocean horizon with no land or bridge structures visible?",
+  "Is the lighting throughout consistent with a sunrise (warm amber/gold tones, low\u2011angle light casting long shadows on the water)?",
+  "Does the title text \u201cGolden Hour\u201d appear only in the final second of the video?",
+  "Does the title fade in smoothly (opacity increasing with an ease\u2011in curve) rather than popping or sliding in abruptly?",
+  "Is the title legible: at least about one\u2011tenth of the frame height, high\u2011contrast against the background, and not touching or crossing any frame edge?",
+  "Is there no dead\u2011air segment longer than 0.2\u202fs where nothing visibly changes (no camera motion, no light shift, no texture movement)?",
+  "Does the final frame hold still for at least 0.5\u202fs before the video ends?",
+  "Are there zero visible glitches, flicker, overlapping text, or rendering artifacts anywhere in the video?",
+  "Does the picture fill the entire frame with no black bars, borders, masks, or hard\u2011edged vignettes?",
+  "Are the colors harmonious throughout (no clashing hues, consistent white balance, a smooth gradient from warm sunrise to cooler ocean)?"
+ ]
+}

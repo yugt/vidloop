@@ -1,0 +1,19 @@
+{
+ "brief": "A 6-second animated bar chart: five bars labelled Mon to Fri grow from zero to heights 3, 7, 5, 9, 4 with value labels, and the tallest bar is highlighted at the end.",
+ "checks": [
+  "The video shows exactly five vertical bars (no more, no less).",
+  "The bars are labeled underneath (or above) with the day abbreviations Mon, Tue, Wed, Thu, Fri in that left\u2011to\u2011right order.",
+  "Each bar\u2019s final height matches the specified value: Mon \u2248\u202f3 units, Tue \u2248\u202f7, Wed \u2248\u202f5, Thu \u2248\u202f9, Fri \u2248\u202f4 (relative scale).",
+  "Each bar displays a numeric value label (e.g., \u201c3\u201d, \u201c7\u201d, etc.) that is visible when the bar reaches its final height.",
+  "At time\u202f0\u202fs all bars have zero height (no visible bar).",
+  "The bars grow from zero to their final heights with easing (slow start and slow end) rather than moving at a constant speed.",
+  "The tallest bar (Thu) is visually highlighted at the end (e.g., brighter color, outline, or glow) and remains highlighted for at least\u202f0.5\u202fs before the video ends.",
+  "No bar, label, or highlight touches or crosses the outer frame edge; there is a clear margin around all elements.",
+  "The bars are evenly spaced horizontally and aligned on a common baseline, forming a clean grid layout.",
+  "Something meaningful (bar growth, label appearance, or highlight change) occurs in every second of the 6\u2011second clip (no dead\u2011air intervals).",
+  "The first bar begins to grow within the first\u202f0.5\u202fs of the video (no empty opening).",
+  "The final frame holds still (no further animation) for at least\u202f0.5\u202fs before the video ends.",
+  "The color palette used for bars, labels, and the highlight is harmonious and the highlight contrasts appropriately with its bar color.",
+  "The video is free of visual glitches, flicker, overlapping text, or rendering artifacts."
+ ]
+}

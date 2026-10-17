@@ -1,0 +1,17 @@
+{
+ "brief": "A 5-second countdown from 3 to 1 with each number scaling up and fading out, ending on the word 'GO!' with a burst of particles.",
+ "checks": [
+  "Is the first visible number the digit '3'?",
+  "Is the number '3' large (about at least one\u2011tenth of the frame height), high\u2011contrast against the background, and completely inside the frame (no touching or crossing edges)?",
+  "Does the number '3' visibly scale up while its opacity decreases (fade out) during its appearance?",
+  "After the '3' disappears, does the number '2' appear next in the same position and style?",
+  "Is the number '2' large (\u2248\u202f1/10 frame height), high\u2011contrast, and fully inside the frame?",
+  "Does the number '2' scale up while fading out?",
+  "After the '2' disappears, does the number '1' appear next?",
+  "Is the number '1' large (\u2248\u202f1/10 frame height), high\u2011contrast, and fully inside the frame?",
+  "Does the number '1' scale up while fading out?",
+  "After the '1' disappears, does the word 'GO!' appear accompanied by a visible burst of particles emanating from its center?",
+  "Is the word 'GO!' large (\u2248\u202f1/10 frame height), high\u2011contrast, fully inside the frame, and is the particle burst clearly visible?",
+  "Does the video contain no dead air (something moves or changes every second after the first 0.5\u202fs), show no elements before the first 0.5\u202fs, hold the final 'GO!' frame still for at least 0.5\u202fs before ending, use harmonious colors, and exhibit no glitches, flicker, overlapping text, or rendering artifacts?"
+ ]
+}

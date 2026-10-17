@@ -1,0 +1,19 @@
+{
+ "brief": "An 8-second explainer: three labelled boxes 'Plan', 'Act', 'Check' appear one at a time in a row, connected by arrows that draw themselves, then an arrow loops from 'Check' back to 'Plan'.",
+ "checks": [
+  "Does the first box that appears contain the word \"Plan\" spelled correctly and centered inside the box?",
+  "Does the second box that appears contain the word \"Act\" spelled correctly and centered inside the box?",
+  "Does the third box that appears contain the word \"Check\" spelled correctly and centered inside the box?",
+  "Do the boxes appear in the order left\u2011to\u2011right: Plan, then Act, then Check, with each new box appearing only after the previous one is fully visible?",
+  "Does the arrow that connects Plan to Act draw itself smoothly from the Plan box to the Act box, without jumping or skipping?",
+  "Does the arrow that connects Act to Check draw itself smoothly from the Act box to the Check box, without jumping or skipping?",
+  "Does the looping arrow that goes from the Check box back to the Plan box draw itself smoothly, forming a visible curve or line that completes before the video ends?",
+  "Is the text inside each box at least about one\u2011tenth of the frame height and clearly legible against its background (high contrast)?",
+  "Do none of the boxes or arrows touch or cross the outer edge of the frame at any point?",
+  "Are the three boxes horizontally aligned on a common baseline and evenly spaced (approximately equal gaps between them)?",
+  "Do all movements (appearance of boxes, drawing of arrows) use ease\u2011in/ease\u2011out timing rather than a constant linear speed?",
+  "Is there some visual change (appearance, movement, color shift) in every second of the video, with no period longer than 0.5\u202fs where nothing moves?",
+  "Does the video avoid an empty opening: the first visible element (the Plan box) appears no later than 0.5\u202fs after the start?",
+  "Does the final frame hold still for at least 0.5\u202fs before the video ends, with no further animation after the looping arrow is complete?"
+ ]
+}

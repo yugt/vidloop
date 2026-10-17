@@ -1,0 +1,17 @@
+{
+ "brief": "A 15-second cinematic film of the Golden Gate Bridge at sunrise: open on fog rolling across the bay with the bridge small in the distance, then a low close shot rising up one of the orange towers, then a shot gliding beneath the bridge deck, and end looking out to the open ocean with the title 'Golden Hour'.",
+ "checks": [
+  "Is fog visible drifting across the bay with the Golden Gate Bridge appearing small and distant at the very start of the video?",
+  "Is this fog\u2011bay view the first image shown, with nothing preceding it?",
+  "Does the fog visibly move (laterally or vertically) across the frame while the bridge stays at a constant small scale?",
+  "Is the camera positioned low, looking up at one bridge tower, and is the tower\u2019s orange paint clearly visible?",
+  "Does this tower shot follow directly after the fog\u2011bay shot, with no other scenes in between?",
+  "Does the view rise smoothly along the tower, showing a continuous upward motion?",
+  "Is the camera underneath the bridge deck, revealing the steel structure and the water/sky below?",
+  "Does this beneath\u2011deck shot come immediately after the tower\u2011rise shot, with no intervening shots?",
+  "Does the camera glide smoothly forward or laterally beneath the deck, without jerks or sudden stops?",
+  "Does the final view look out over the open ocean with the horizon visible, and does the text \u201cGolden Hour\u201d appear on screen?",
+  "Is this ocean\u2011with\u2011title shot the last segment, appearing after the beneath\u2011deck shot and lasting until the end?",
+  "Does the text appear (fade\u2011in or slide\u2011in) and remain legible and stationary while the ocean view holds steady, with no abrupt cuts?"
+ ]
+}
