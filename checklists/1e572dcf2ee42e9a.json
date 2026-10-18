@@ -1,0 +1,19 @@
+{
+ "brief": "A 13-second film in ONE continuous camera take, no cuts. A humanoid robot drives a stark-white closed-roof angular coupe north on the Golden Gate Bridge, which has one concrete median barrier and three lanes each way; ahead the Marin hillside collapses toward the bridge and keeps collapsing throughout. Without slowing, the car fires cold-gas thrusters (white vapor, no flame), lifts off, rises above the barrier, turns flat 180 degrees in mid-air, lands on the southbound lanes on the other side of the barrier and drives toward the camera, away from the landslide, ending with the title 'Safe Return'.",
+ "checks": [
+  "Does the video play as one continuous shot with no visible cuts or edits? (YES = good)",
+  "Is a humanoid robot visible inside the car, appearing to drive it? (YES = good)",
+  "Is the car stark\u2011white, closed\u2011roof, and angular in shape? (YES = good)",
+  "Is there exactly one concrete median barrier visible on the bridge? (YES = good)",
+  "Are there three lane markings visible in each direction on the bridge? (YES = good)",
+  "Is the Marin hillside behind the bridge shown collapsing and does the collapse continue throughout the shot? (YES = good)",
+  "Does the car maintain its speed (no noticeable slowdown) before the thrusters fire? (YES = good)",
+  "Do the thrusters emit only white vapor with no visible flame? (YES = good)",
+  "After the thrusters fire, does the car lift off the ground? (YES = good)",
+  "While airborne, does the car rise above the concrete median barrier? (YES = good)",
+  "While airborne, does the car perform a flat 180\u2011degree turn (reversing its direction)? (YES = good)",
+  "Does the car land on the southbound lanes on the opposite side of the barrier? (YES = good)",
+  "After landing, does the car drive toward the camera, moving away from the continuing landslide? (YES = good)",
+  "At the end of the shot, does the legible title \u201cSafe Return\u201d appear and remain on screen? (YES = good)"
+ ]
+}

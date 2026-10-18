@@ -1,0 +1,102 @@
+{
+ "brief": "A 13-second film in ONE continuous camera take, no cuts. A humanoid robot drives a stark-white closed-roof angular coupe north on the Golden Gate Bridge, which has one concrete median barrier and three lanes each way; ahead the Marin hillside collapses toward the bridge and keeps collapsing throughout. Without slowing, the car fires cold-gas thrusters (white vapor, no flame), lifts off, rises above the barrier, turns flat 180 degrees in mid-air, lands on the southbound lanes on the other side of the barrier and drives toward the camera, away from the landslide, ending with the title 'Safe Return'.",
+ "target": 13.0,
+ "style": "Sunrise over the Golden Gate Bridge, soft golden\u2011pink sky with cool blue shadows, cinematic 35mm lens, Kodak Portra 400 film grain, subtle lens flare. The road surface has only white dashed lane lines: no painted arrows, words or symbols.",
+ "cast": "The car is a closed-roof two-seat electric coupe, NOT a convertible and never open-top: a fixed roof of dark tinted glass and black panels, a low sleek silver-white wedge body with sharp faceted lines, a thin full-width LED light bar across the front between two small headlights, a flat dark underbody with small cold-gas thruster nozzles, no logos. The driver is a slim white-and-black humanoid robot with a glossy black faceplate, seen through the windshield and side windows. The thrusters fire compressed cold gas only: soft, misty, pale cyan-blue plumes that widen into smoky wisps and burst into dense white vapor clouds where they hit the road; no bright core, no glow, never flame.",
+ "title": "Safe Return",
+ "shots": [
+  {
+   "intent": "Establish the robot driver speeding northbound toward the imminent landslide.",
+   "still_prompt": "Elevated view from about 8 meters above and behind the car on the Golden Gate Bridge deck, looking north along the roadway at sunrise: exactly ONE narrow, low grey concrete median barrier (linked concrete blocks about 80 cm high) along the center line of the deck, with three open lanes on each side separated only by painted dashed lines (six lanes in total) and no other concrete barriers, only the side railings at the outer edges; the closed fixed-roof silver-white coupe (not a convertible) seen from behind, its rear and tail lights toward the camera, driving away from the camera in the northbound lane immediately to the right of the barrier toward the orange north tower; the robot driver visible through the rear window, not exposed; its thrusters are completely inactive, producing no exhaust, vapor, plume, glow, or mist; beyond the bridge's north end the Marin hillside collapses in a landslide and brown dust pours onto the road; the road has only white dashed lane lines, no painted arrows, words or symbols.",
+   "subject": "White coupe with robot driver",
+   "motion_prompt": "The camera glides slowly forward behind and above the coupe as it drives north toward the tower; the landslide dust cloud ahead grows and rolls down the hillside onto the road. The median barrier stays in view down the center of the frame.",
+   "expectations": [
+    "Is the landslide dust plume visible ahead of the vehicle?",
+    "Is the continuous concrete median barrier visible beside the roadster's lane?"
+   ],
+   "must": [
+    "The car has a closed fixed roof (it is not a convertible or open-top)",
+    "The humanoid robot driver is visible through the car's rear or side windows",
+    "The car is a stark-white, angular, low two-seat coupe",
+    "Landslide dust plume is present ahead",
+    "Exactly one median barrier runs down the center with three open lanes on each side; no barrier separates lanes on the same side",
+    "The car's rear faces the camera as it drives away from the camera toward the landslide",
+    "The thrusters are not firing yet (no plumes or vapor under the car)",
+    "There are no painted arrows, words or symbols on the road surface, only dashed lane lines"
+   ],
+   "duration": 4
+  },
+  {
+   "intent": "Lift-off while moving: without slowing, the car fires its cold-gas thrusters and lifts off, rising above the median barrier, the landslide still advancing.",
+   "subject": "The coupe lifting off and rising above the median barrier",
+   "continues": true,
+   "duration": 3,
+   "still_prompt": "",
+   "motion_prompt": "Static camera: it stays exactly where it is, elevated behind the car looking north along the bridge; no cut, pan, tilt, zoom or dolly. The car keeps moving forward, its plumes push hard and it lifts off the road and rises a few meters, drifting left until it hovers directly above the concrete median barrier, wheels underneath and nose still pointing north toward the landslide. The thrusters are soft, misty, pale cyan-blue cold-gas plumes that burst into dense white vapor on the road; no glow, no bright cores, no flame. The landslide keeps advancing: the Marin hillside keeps collapsing toward the bridge and brown debris and dust keep pouring onto the far end of the roadway. Only one car exists in the scene; no duplicate cars.",
+   "expectations": [
+    "The car keeps moving forward as it lifts off; it never stops first.",
+    "The car rises until it is above the median barrier.",
+    "At the end the car still points away from the camera toward the landslide."
+   ],
+   "must": [
+    "The camera does not move or cut: same viewpoint from start to end",
+    "The landslide keeps advancing toward the bridge throughout",
+    "The car has a closed fixed roof (it is not a convertible or open-top)",
+    "Exactly one median barrier runs down the center; no barrier separates lanes on the same side",
+    "There are no painted arrows, words or symbols on the road surface, only dashed lane lines",
+    "Only one car is in the scene",
+    "No flame or glowing jets"
+   ]
+  },
+  {
+   "intent": "The U-turn: hovering above the barrier, the car turns flat through 180 degrees so its nose points toward the camera, away from the landslide.",
+   "subject": "The coupe turning flat above the barrier",
+   "continues": true,
+   "duration": 3,
+   "still_prompt": "",
+   "motion_prompt": "Static camera: it stays exactly where it is, elevated behind the car looking north along the bridge; no cut, pan, tilt, zoom or dolly. Hovering above the median barrier, the car rotates only around its vertical yaw axis, a smooth flat 180-degree turn with wheels staying underneath and no pitch or roll, until its front and headlights face the camera; it stays above the barrier. The thrusters are soft, misty, pale cyan-blue cold-gas plumes that burst into dense white vapor on the road; no glow, no bright cores, no flame. The landslide keeps advancing: the Marin hillside keeps collapsing toward the bridge and brown debris and dust keep pouring onto the far end of the roadway. Only one car exists in the scene; no duplicate cars.",
+   "expectations": [
+    "The car turns flat around its vertical axis without rolling or flipping.",
+    "By the end the car's front faces the camera.",
+    "The car stays above the median barrier during the turn."
+   ],
+   "must": [
+    "The camera does not move or cut: same viewpoint from start to end",
+    "The landslide keeps advancing toward the bridge throughout",
+    "The car has a closed fixed roof (it is not a convertible or open-top)",
+    "Exactly one median barrier runs down the center; no barrier separates lanes on the same side",
+    "There are no painted arrows, words or symbols on the road surface, only dashed lane lines",
+    "Only one car is in the scene",
+    "The car never rolls or flips upside down"
+   ]
+  },
+  {
+   "intent": "Escape: the car descends onto the southbound lanes on the other side of the barrier and drives toward the camera, away from the advancing landslide; 'Safe Return'.",
+   "subject": "The coupe landing on the far side of the barrier and driving toward the camera",
+   "continues": true,
+   "duration": 3,
+   "still_prompt": "",
+   "motion_prompt": "Locked-off static camera: the view does not move, pan, zoom or cut. The car, hovering with its front facing the camera just to the right of the concrete median barrier, glides sideways toward the LEFT side of the frame, passing over the barrier, then descends and lands in the lanes on the LEFT side of the barrier with a burst of white vapor, and drives toward the camera along those left lanes, leaving the frame at the bottom left. Only one car exists. The landslide dust keeps rolling down the hillside in the background. Soft misty cold-gas plumes, no flame.",
+   "expectations": [
+    "The car moves to the left side of the frame, passing over the median barrier.",
+    "The car lands in the lanes on the left side of the barrier.",
+    "After landing the car drives toward the camera along the left lanes."
+   ],
+   "must": [
+    "The camera does not move or cut: same viewpoint from start to end",
+    "The landslide keeps advancing toward the bridge throughout",
+    "The car has a closed fixed roof (it is not a convertible or open-top)",
+    "Exactly one median barrier runs down the center; no barrier separates lanes on the same side",
+    "There are no painted arrows, words or symbols on the road surface, only dashed lane lines",
+    "Only one car is in the scene",
+    "The car crosses over the median barrier and lands in the lanes on the left of the barrier, not the lanes it took off from"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "path": "/home/yugt/Documents/Hackathon/20261017/runs/uturn_trajectory.png",
+   "caption": "Top-down choreography of the escape (north up): the roadster drives north in the middle northbound lane, lifts off at about 1 s while still moving, arcs over the median barrier while yawing flat from north through west (apex about 6 m, nose west) and lands in the middle southbound lane nose south at about 3.5 s, then drives south. Grey cars are optional trapped ordinary cars."
+  }
+ ]
+}
