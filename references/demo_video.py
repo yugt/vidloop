@@ -120,6 +120,19 @@ FAILURES = [  # (source, start, kind, label, who caught it)
     (FILM / "_shot_1_arrows/attempt_1/clip_1.mp4", 3.0, "clip", "road arrows point the same way on both sides", "caught by: human -> now a must-pass road-marking check"),
 ]
 
+EVIDENCE = [  # (source, start, kind, tag, quote as returned by the model, what it judged)
+    (FILM / "_shot_0_convertible/still.png", 0.0, "image", "NEMOTRON OMNI",
+     '"an open-top convertible with no roof visible"', "still gate: rejected before any video was made"),
+    (FILM / "shot_0/still_r2_c1.png", 0.0, "image", "CODEX",
+     '"Candidates 0 and 2 show thruster jets... Candidate 1 passes every check"', "picks among 3 stills, corrects Omni's lane count"),
+    (RUNS / "film-roadster-story/_v6_failed_escape/attempt_1/clip.mp4", 1.2, "clip", "NEMOTRON SUPER-VL",
+     '"rotates onto its back (pitch/roll) instead of yawing flat"', "clip critic, with the prompt fix: yaw axis only"),
+    (FILM / "_shot_1_before_rawlog/attempt_1/clip.mp4", 2.2, "clip", "NEMOTRON SUPER-VL",
+     '"a second identical car appears ... a duplicate object"', "clip critic, with the prompt fix: only one car"),
+    (FILM / "shot_1/best.mp4", 1.5, "clip", "CODEX FILM REVIEW",
+     '"the car turns without visibly crossing the median"', "blocks the film; Nemotron Super then edits or regenerates"),
+]
+
 PIPELINE = [  # (box title, model, real quote from the raw log or notebook)
     ("Storyboard", "Nemotron Super", "one story beat per shot, a shared cast"),
     ("3 stills", "Qwen-Image x3", ""),
@@ -222,6 +235,13 @@ def credits_frame(t: float) -> Image.Image:
     return img
 
 
+# The story's three clips and their narration; override for a different cut of the film.
+STORY = [
+    (4.0, "A robot drives the Roadster north. Ahead, the hillside collapses."),
+    (5.0, "A barrier blocks any U-turn. So it takes off, turns in mid-air, and lands."),
+    (4.0, "Safe return."),
+]
+
 TTS_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer"
 TTS_DIR = RUNS / "demo/tts"
 SPEED = 1.1  # the voice reads about 2.4 words per second; 1.1x keeps it natural and the demo under a minute
@@ -302,18 +322,29 @@ def build(danger: Path, escape: Path, home: Path, out: Path) -> Path:
         (tmp / "fail_list.txt").write_text("".join(f"file '{f}'\n" for f in failures))
         ff("-f", "concat", "-safe", "0", "-i", str(tmp / "fail_list.txt"), "-c:v", "libx264", "-crf", "20", str(montage))
 
+        evidence = []
+        tag_colors = {"NEMOTRON OMNI": (60, 140, 220), "CODEX": (150, 90, 220), "NEMOTRON SUPER-VL": (40, 160, 110),
+                      "CODEX FILM REVIEW": (150, 90, 220)}
+        for k, (src, start, kind, tag, quote, what) in enumerate(EVIDENCE):
+            lab = label_png(tmp / f"ev_label_{k}.png", tag, tag_colors[tag], quote, what)
+            if kind == "image":
+                plain = image_seg(tmp / f"ev_{k}_raw.mp4", Image.open(src), 2.2)
+                evidence.append(clip_seg(tmp / f"ev_{k}.mp4", plain, 0.0, 2.2, lab))
+            else:
+                evidence.append(clip_seg(tmp / f"ev_{k}.mp4", src, start, 2.2, lab))
+        examples = tmp / "evidence.mp4"
+        (tmp / "ev_list.txt").write_text("".join(f"file '{f}'\n" for f in evidence))
+        ff("-f", "concat", "-safe", "0", "-i", str(tmp / "ev_list.txt"), "-c:v", "libx264", "-crf", "20", str(examples))
+
         # (rendered segment, narration line, minimum seconds)
         plan = [
             (write_frames(tmp / "title.mp4", 3.0, title_card),
              "Vidloop: AI agents that make a film, then judge and fix it.", 3.0),
-            (clip_seg(tmp / "danger.mp4", danger, 0.0, 4.0),
-             "A robot drives the Roadster north. Ahead, the hillside collapses.", 4.0),
-            (clip_seg(tmp / "escape.mp4", escape, 0.0, 5.0),
-             "A barrier blocks any U-turn. So it takes off, turns in mid-air, and lands.", 5.0),
-            (clip_seg(tmp / "home.mp4", home, 0.0, 4.0), "Safe return.", 4.0),
+            *[(clip_seg(tmp / f"story_{k}.mp4", clip, 0.0, dur), line, dur)
+              for k, (clip, (dur, line)) in enumerate(zip((danger, escape, home), STORY))],
             (montage, "It took many failures: no story, the wrong car, flames, a barrel roll, a car split in two. "
                       "Each is now a check the agents run themselves.", 9.8),
-            (write_frames(tmp / "pipeline.mp4", 10.5, lambda t: pipeline_frame(t, 10.5)),
+            (examples,
              "Nemotron writes the storyboard. Qwen draws three stills; nine Nemotron judges and Codex check them. "
              "HappyHorse animates the best; Omni, Super-VL and Codex judge each clip.", 9.0),
             (write_frames(tmp / "gate.mp4", 5.0, still_gate_frame),
@@ -326,7 +357,7 @@ def build(danger: Path, escape: Path, home: Path, out: Path) -> Path:
         ]
         segs, audio = [], []
         for k, (seg, line, minimum) in enumerate(plan):
-            top = seg == montage  # the failure labels occupy the bottom of the frame
+            top = seg in (montage, examples)  # their labels occupy the bottom of the frame
             voice = tts(line)
             dur = max(minimum, audio_secs(voice) / SPEED + 0.3)
             segs.append(fit(tmp / f"seg_{k:02d}.mp4", seg, dur, subtitle_png(tmp / f"sub_{k}.png", line, top)))

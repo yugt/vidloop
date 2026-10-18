@@ -320,6 +320,24 @@ over 16 clips), an Omni clip verdict about 66 s; Crusoe served 16 concurrent Nem
 throttling is retried with back-off and recorded; concurrent Alibaba requests are capped by
 `VIDLOOP_ALIBABA_CONCURRENCY` (default 4).
 
+## After the submission deadline (Oct 18, 2026, after 5 pm PT)
+
+**This section and the `demo/post_deadline_*` files were made after the hackathon deadline**, for the
+live presentation. The submitted demo is `demo/vidloop_demo.mp4`.
+
+- **One continuous take** (`demo/post_deadline_continuous_film.mp4`, 13 s): the earlier film was three
+  independently generated shots, so every boundary reset the camera and the landslide. The new film is
+  four frame-chained segments (`"continues": true`), each starting from the previous segment's exact last
+  frame, with a static camera: the car drives into the collapsing hillside, lifts off without slowing,
+  turns in mid-air and lands on the far side of the median barrier. The landing segment only crossed the
+  barrier once its motion prompt named the screen side explicitly ("glides toward the left side of the
+  frame, passing over the barrier"); four earlier landing clips drifted right and landed on the takeoff side.
+- **Remaining issues** the judges still flag: glowing thruster cores (HappyHorse renders cold gas with a
+  bright core whatever the prompt says), lift-off later than the reference choreography, and the car
+  hugging the median lanes.
+- **Demo v4** (`demo/post_deadline_vidloop_demo_v4.mp4`, 57 s) uses this film for the story and shows
+  real stills and clips with each model's actual feedback in the technical part.
+
 ## Quickstart
 
 Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).

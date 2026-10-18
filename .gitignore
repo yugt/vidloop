@@ -12,3 +12,4 @@ runs/
 .env
 assets_cache/
 .pytest_cache/
+.agents/
